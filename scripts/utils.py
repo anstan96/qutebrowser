@@ -69,6 +69,7 @@ def print_col(text, color):
 
 def print_title(text):
     """Print a title."""
+    print()
     print_col("==================== {} ====================".format(text),
               'yellow')
 
